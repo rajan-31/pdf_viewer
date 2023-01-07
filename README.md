@@ -1,3 +1,7 @@
+Deployed here
+
+https://rajan-31.github.io/pdf_viewer
+
 __It works with the help of https://github.com/mozilla/pdf.js__
 
 Purpose:
