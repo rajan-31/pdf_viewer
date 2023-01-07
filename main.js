@@ -19,7 +19,7 @@ btn_load.addEventListener('click', () => {
     const proxy = document.getElementById('proxy').value;
     const url = document.getElementById('url').value;
 
-    frame.src = '/web/viewer.html?file=' + proxy + url;
+    frame.src = './web/viewer.html?file=' + proxy + url;
 
     document.getElementById("container").style.display = 'none';
 });
