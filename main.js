@@ -20,6 +20,8 @@ btn_load.addEventListener('click', () => {
     const url = document.getElementById('url').value;
 
     frame.src = './web/viewer.html?file=' + proxy + url;
+    
+    console.log(frame.src)
 
     document.getElementById("container").style.display = 'none';
 });
